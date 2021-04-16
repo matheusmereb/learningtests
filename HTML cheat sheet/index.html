@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">Go to blog</a>
+        <!-- Headings -->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraphs -->
+        <p>
+            Lorem ipsum, dolor sit amet <strong>consectetur adipisicing elit</strong>. <em>Praesentium, enim!</em> <!-- 'lorem10' for dummy text, 'strong' tag for bold and 'em' for emphasis -->
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur <a href="http://google.com" target="_blank">adipisicing</a> elit. Porro saepe incidunt accusamus nemo tempora, consequuntur facilis sit reiciendis cum commodi? <!-- 'a' is attribute, for links, and 'href' is the location; using 'target' as '_blank' opens link on new tab -->
+        </p>
+
+        <!-- Lists -->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Matheus Mereb</td>
+                    <td>matheus_mereb@live.com</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Rodrigo Tavares</td>
+                    <td>comedor_de_casadas@hotmail.com</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Giácomo Dollevedo</td>
+                    <td>gia_pardal@gmail.com</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br> <!-- Line break -->
+        <hr> <!-- Horizontal rule: line that separates horizontally -->
+        <br>
+
+        <!-- Forms -->
+        <form action="process.php" method="POST">
+            <div>
+                <label for="">First Name: </label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label for="">Last Name: </label>
+                <input type="text" name="lastName" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label for="">E-mail: </label>
+                <input type="email" name="email" placeholder="Enter e-mail">
+            </div>
+            <br>
+            <div>
+                <label for="">Message: </label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">Gender: </label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Age: </label>
+                <input type="number" name="age" value="20">   
+            </div>
+            <br>
+            <div>
+                <label for="">Birthday: </label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+        <br>
+
+        <!-- Buttons -->
+        <button>Click me!</button>
+        
+        <hr>
+        <br>
+        <br>
+
+        <!-- Images -->
+        <a href="images/sample.jpg" target="_blank">
+        <img src="images/sample.jpg" alt="My sample image" width="200">
+        </a>
+
+        <!-- Quotations -->
+        <blockquote cite="http://twitter.com">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum temporibus modi obcaecati ut voluptatibus autem officiis est vero voluptate cumque.
+        </blockquote>
+
+        <p>
+            The <abbr title="World Wide Web">WWW</abbr> is awesome!
+        </p>
+
+        <p>
+            <cite>HTML Crash Course</cite> by TraversyMedia.
+        </p>
+
+        <div style="margin-top: 500px"></div>
+    </body>
+</html>
